@@ -109,7 +109,9 @@ function RouteMetadata() {
   const location = useLocation();
 
   useEffect(() => {
-    const getRouteMeta = (pathname: string) => {
+    const getRouteMeta = (rawPathname: string) => {
+      const pathname = rawPathname.length > 1 ? rawPathname.replace(/\/+$/, "") : rawPathname;
+
       if (pathname.startsWith("/series/") && pathname !== "/series") {
         const projectId = pathname.replace("/series/", "").split("/")[0];
         const project = seriesProjectMap[projectId];
