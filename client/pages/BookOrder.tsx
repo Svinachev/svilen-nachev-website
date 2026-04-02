@@ -156,7 +156,7 @@ export default function BookOrder() {
       </div>
 
       {/* Video Section */}
-      <div className="mb-12">
+      <div className="mb-12 hidden">
         <div className="aspect-video bg-black rounded-lg overflow-hidden shadow-lg">
           <iframe
             width="100%"

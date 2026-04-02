@@ -138,7 +138,7 @@ export const seriesProjects: SeriesProject[] = [
     detailLabel: "(ongoing project)",
     description:
       "I often ask myself whether the things I do matter.\nAs we live, we inevitably communicate; we become a factor in others’ lives and actions; our light is present in reality, and we, sometimes without wanting to or realizing it, affect the natural course of events. The controversial nature of photography frequently drags us into the whirlpool of the incomprehensible, further confusing our perception of meaning; the dynamic process itself of seeking meaning can become a goal, which explores the rational and irrational, material and spiritual, reality and illusion.\nAs paradoxical as it may sound, this initial uncertainty can return us to the basics of what makes us human beings.",
-    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976474/Svilen_Nachev_Illusion_01_ohmrhi.jpg",
+    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976474/Svilen_Nachev_Illusion_05_cktpa8.jpg",
     aspectRatio: "aspect-video",
     images: createImages("The Illusion of Meaning", [
       [1, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976474/Svilen_Nachev_Illusion_01_ohmrhi.jpg"],
