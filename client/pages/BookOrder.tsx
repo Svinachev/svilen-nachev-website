@@ -28,6 +28,41 @@ const bookImages = [
   },
 ];
 
+const mediaLogos = [
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155796/images_exen1q.png",
+    alt: "Media Logo 1",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155795/images_3_wsskgw.png",
+    alt: "Media Logo 2",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155785/images_2_jirrw3.png",
+    alt: "Media Logo 3",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155775/Eyeshot-Open-Call-2022_uanrdf.jpg",
+    alt: "Eyeshot",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155775/GommaGrant2018Logo_rox0g2.jpg",
+    alt: "Gomma Grant",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155774/8631-contest-lensculture-logo01_kjbifb.jpg",
+    alt: "LensCulture",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155775/EDITEDephemere-mainPNG-1_yl0331.jpg",
+    alt: "Ephemere",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155775/images_1_hyfpmy.png",
+    alt: "Media Logo 4",
+  },
+];
+
 export default function BookOrder() {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
@@ -139,14 +174,14 @@ export default function BookOrder() {
       <div className="mb-12">
         <h2 className="text-2xl font-bold mb-6 text-center">Media acclaim</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 items-center">
-          {Array.from({ length: 4 }).map((_, idx) => (
+          {mediaLogos.map((logo, idx) => (
             <div
               key={idx}
               className="border border-border px-4 py-6 flex items-center justify-center"
             >
               <img
-                src="https://www.lensculture.com/images/logo-grey@2x.png"
-                alt="Media logo placeholder"
+                src={logo.src}
+                alt={logo.alt}
                 className="h-8 w-auto object-contain opacity-70"
                 loading="lazy"
                 decoding="async"
