@@ -1,0 +1,176 @@
+import { useEffect, useState } from "react";
+
+const bookImages = [
+  {
+    id: 1,
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976497/Illusion_Book_c0jdem.jpg",
+    alt: "Book Cover - Front",
+  },
+  {
+    id: 2,
+    src: "https://images.unsplash.com/photo-1507842217343-583f20270319?w=800&q=80",
+    alt: "Book Interior Pages 1",
+  },
+  {
+    id: 3,
+    src: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=800&q=80",
+    alt: "Book Interior Pages 2",
+  },
+  {
+    id: 4,
+    src: "https://images.unsplash.com/photo-1507842217343-583f20270319?w=800&q=80",
+    alt: "Book Back Cover",
+  },
+  {
+    id: 5,
+    src: "https://images.unsplash.com/photo-1461749734694-cf61dd64621d?w=800&q=80",
+    alt: "Book Details",
+  },
+];
+
+export default function BookOrder() {
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div className="w-full max-w-7xl mx-auto px-6 lg:px-8 py-12 lg:py-16">
+      {/* Book Information */}
+      <div className="mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
+          {/* Book Cover/Image Gallery */}
+          <div>
+            {/* Main Image */}
+            <div className="aspect-square overflow-hidden mb-4">
+              <img
+                src={bookImages[selectedImageIndex].src}
+                alt={bookImages[selectedImageIndex].alt}
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            {/* Thumbnail Images */}
+            <div className="w-full flex gap-3">
+              {bookImages.map((image, idx) => (
+                <button
+                  key={image.id}
+                  onClick={() => setSelectedImageIndex(idx)}
+                  className={`flex-1 aspect-square overflow-hidden border-2 transition-all ${
+                    selectedImageIndex === idx
+                      ? "border-foreground opacity-100"
+                      : "border-border opacity-60 hover:opacity-80"
+                  }`}
+                >
+                  <img
+                    src={image.src}
+                    alt={image.alt}
+                    className="w-full h-full object-cover"
+                  />
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Book Details */}
+          <div>
+            <h1 className="text-2xl font-bold mb-4">The Illusion of Meaning</h1>
+            <p className="text-base leading-relaxed mb-4 text-muted">
+              First Edition, 2026
+            </p>
+
+            <div className="space-y-2 mb-8">
+              <p className="text-sm">
+                <span className="font-semibold">Format:</span> 30 × 28.50 cm
+              </p>
+              <p className="text-sm">
+                <span className="font-semibold">Pages:</span> 112
+              </p>
+              <p className="text-sm">
+                <span className="font-semibold">Photographs:</span> 57
+              </p>
+              <p className="text-sm">
+                <span className="font-semibold">Cover:</span> Hardcover, pregè on cloth
+              </p>
+              <p className="text-sm">
+                <span className="font-semibold">Language:</span> Bulgarian, English
+              </p>
+              <p className="text-sm">
+                <span className="font-semibold">Published by:</span> Need for Color
+              </p>
+              <p className="text-sm">
+                <span className="font-semibold">ISBN:</span> 978-619-7323-08-5
+              </p>
+            </div>
+
+            {/* Order Button */}
+            <div className="flex flex-col gap-3">
+              <button
+                onClick={() => window.open("https://example.com/order", "_blank")}
+                className="px-8 py-3 bg-foreground text-background font-semibold text-base hover:opacity-80 transition-opacity"
+              >
+                Order Now
+              </button>
+              <p className="text-sm text-muted">
+                €85.00 per copy
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Video Section */}
+      <div className="mb-12">
+        <div className="aspect-video bg-black rounded-lg overflow-hidden shadow-lg">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/ckPpy3rqrPU"
+            title="Book Introduction"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full"
+          ></iframe>
+        </div>
+      </div>
+
+      <div className="mb-12">
+        <h2 className="text-2xl font-bold mb-6 text-center">Media acclaim</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 items-center">
+          {Array.from({ length: 4 }).map((_, idx) => (
+            <div
+              key={idx}
+              className="border border-border px-4 py-6 flex items-center justify-center"
+            >
+              <img
+                src="https://www.lensculture.com/images/logo-grey@2x.png"
+                alt="Media logo placeholder"
+                className="h-8 w-auto object-contain opacity-70"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="pb-8">
+        <h2 className="text-2xl font-bold mb-4 text-center">Funding</h2>
+        <p className="text-base leading-relaxed mb-4 text-muted text-center">
+          „Проектът се реализира в България с финансовата подкрепа на НФ "Култура".“
+        </p>
+        <div className="flex justify-center">
+          <img
+            src="https://assets.jobs.bg/assets/logo/2023-04-03/b_d7c1e81aaa26f6e52c993a38a5ad2d25.png"
+            alt="НФ Култура"
+            className="h-20 w-auto object-contain"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
