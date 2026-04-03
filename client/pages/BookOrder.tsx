@@ -146,41 +146,49 @@ export default function BookOrder() {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 items-center">
           {[
             {
+              filename: "1.contest-lensculture-logo01_tkfu4x",
               src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775160795/1.contest-lensculture-logo01_tkfu4x.jpg",
               alt: "LensCulture contest logo",
             },
             {
+              filename: "2.GommaGrant2018Logo_gksxb1",
               src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775160796/2.GommaGrant2018Logo_gksxb1.jpg",
               alt: "Gomma Grant 2018 logo",
             },
             {
+              filename: "3.images_1_b3bead",
               src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775160796/3.images_1_b3bead.png",
               alt: "Images 1 logo",
             },
             {
+              filename: "4.38808539_443975594835376_6152723884876105181_n_rsn28x",
               src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775160801/4.38808539_443975594835376_6152723884876105181_n_rsn28x.jpg",
               alt: "38808539 logo",
             },
             {
+              filename: "5.333226772_1315962138967872_1273215977538980622_n_sj6ugj",
               src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775160802/5.333226772_1315962138967872_1273215977538980622_n_sj6ugj.jpg",
               alt: "333226772 logo",
             },
             {
+              filename: "6.EDITEDephemere-mainPNG-1_q06owm",
               src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775160807/6.EDITEDephemere-mainPNG-1_q06owm.jpg",
               alt: "EDITEDephemere main logo",
             },
-          ].map((logo, idx) => (
-            <div
-              key={idx}
-              className="border border-border px-4 py-6 flex items-center justify-center"
-            >
-              <img
-                src={logo.src}
-                alt={logo.alt}
-                className="h-8 w-auto object-contain opacity-70"
-                loading="lazy"
-                decoding="async"
-              />
+          ]
+            .sort((a, b) => a.filename.localeCompare(b.filename, undefined, { numeric: true, sensitivity: "base" }))
+            .map((logo, idx) => (
+              <div
+                key={idx}
+                className="border border-border px-4 py-6 flex items-center justify-center"
+              >
+                <img
+                  src={logo.src}
+                  alt={logo.alt}
+                  className="h-10 w-auto object-contain opacity-70"
+                  loading="lazy"
+                  decoding="async"
+                />
             </div>
           ))}
         </div>
