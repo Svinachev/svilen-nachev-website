@@ -3,28 +3,33 @@ import { useEffect, useState } from "react";
 const bookImages = [
   {
     id: 1,
-    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976497/Illusion_Book_c0jdem.jpg",
-    alt: "Book Cover - Front",
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775161080/Svilen_Nachev_book_01_lunj6f.jpg",
+    alt: "Book Image 01",
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1507842217343-583f20270319?w=800&q=80",
-    alt: "Book Interior Pages 1",
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775161079/Svilen_Nachev_book_03_nj0c7q.jpg",
+    alt: "Book Image 03",
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=800&q=80",
-    alt: "Book Interior Pages 2",
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775161079/Svilen_Nachev_book_04_xwxcgy.jpg",
+    alt: "Book Image 04",
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1507842217343-583f20270319?w=800&q=80",
-    alt: "Book Back Cover",
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775161080/Svilen_Nachev_book_05_pbsgxp.jpg",
+    alt: "Book Image 05",
   },
   {
     id: 5,
-    src: "https://images.unsplash.com/photo-1461749734694-cf61dd64621d?w=800&q=80",
-    alt: "Book Details",
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775161080/Svilen_Nachev_book_06_j9hgjv.jpg",
+    alt: "Book Image 06",
+  },
+  {
+    id: 6,
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775161080/Svilen_Nachev_book_07_nrjtpb.jpg",
+    alt: "Book Image 07",
   },
 ];
 
