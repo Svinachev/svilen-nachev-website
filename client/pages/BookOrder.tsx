@@ -33,6 +33,41 @@ const bookImages = [
   },
 ];
 
+const mediaLogos = [
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155796/images_exen1q.png",
+    alt: "Media Logo 1",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155795/images_3_wsskgw.png",
+    alt: "Media Logo 2",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155785/images_2_jirrw3.png",
+    alt: "Media Logo 3",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155775/Eyeshot-Open-Call-2022_uanrdf.jpg",
+    alt: "Eyeshot",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155775/GommaGrant2018Logo_rox0g2.jpg",
+    alt: "Gomma Grant",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155774/8631-contest-lensculture-logo01_kjbifb.jpg",
+    alt: "LensCulture",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155775/EDITEDephemere-mainPNG-1_yl0331.jpg",
+    alt: "Ephemere",
+  },
+  {
+    src: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775155775/images_1_hyfpmy.png",
+    alt: "Media Logo 4",
+  },
+];
+
 export default function BookOrder() {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
@@ -112,7 +147,7 @@ export default function BookOrder() {
             {/* Order Button */}
             <div className="flex flex-col gap-3">
               <button
-                onClick={() => window.open("https://example.com/order", "_blank")}
+                onClick={() => window.open("https://buy.stripe.com/test_14AcN7c6Lci3axb7uS8k800", "_blank")}
                 className="px-8 py-3 bg-foreground text-background font-semibold text-base hover:opacity-80 transition-opacity"
               >
                 Order Now
@@ -126,7 +161,7 @@ export default function BookOrder() {
       </div>
 
       {/* Video Section */}
-      <div className="mb-12">
+      <div className="mb-12 hidden">
         <div className="aspect-video bg-black rounded-lg overflow-hidden shadow-lg">
           <iframe
             width="100%"
