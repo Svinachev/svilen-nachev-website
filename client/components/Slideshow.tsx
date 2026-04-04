@@ -187,8 +187,7 @@ export default function Slideshow({
           src={currentImage.src}
           alt={currentImage.title}
           className="absolute inset-0 w-full h-full object-contain"
-          loading="eager"
-          fetchPriority="high"
+          loading="lazy"
           decoding="async"
         />
 
@@ -197,8 +196,7 @@ export default function Slideshow({
             src={nextImage.src}
             alt={nextImage.title}
             className="absolute inset-0 w-full h-full object-contain animate-fade-in"
-            loading="eager"
-            fetchPriority="high"
+            loading="lazy"
             decoding="async"
           />
         )}

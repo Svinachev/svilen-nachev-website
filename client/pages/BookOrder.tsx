@@ -126,7 +126,7 @@ export default function BookOrder() {
 
             <div className="space-y-2 mb-8">
               <p className="text-sm">
-                <span className="font-semibold">Format:</span> 30 × 28.50 cm
+                <span className="font-semibold">Format:</span> 30 x 28.5 cm
               </p>
               <p className="text-sm">
                 <span className="font-semibold">Pages:</span> 112
