@@ -54,7 +54,7 @@ export const seriesProjects: SeriesProject[] = [
     year: "2024-",
     description:
       "This project uses a single camera, a lens, and a flash to capture light like a thought breaking through darkness. Each frame is created with a single press of the shutter, in a moment where day forgets itself and night has not yet arrived. In this dense silence, time hesitates, and every trace of light remains a fragile reminder, a memory of its own vanishing.",
-    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976469/Svilen_Nachev_Twilight_01_bv4k3f.jpg",
+    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976468/Svilen_Nachev_Twilight_11_j24ogg.jpg",
     aspectRatio: "aspect-video",
     images: createImages("Twilight", [
       [1, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976469/Svilen_Nachev_Twilight_01_bv4k3f.jpg"],
@@ -90,7 +90,7 @@ export const seriesProjects: SeriesProject[] = [
     detailLabel: "(ongoing project)",
     description:
       "I find myself consumed by visions where my deepest desires intertwine with the recesses of my subconscious. These moments are a vivid blend of physical longing and uncharted mental landscapes, where the primal aspects of my nature come to life. It's an intoxicating experience, navigating the tension between raw sensuality and the quest for deeper meaning. These inner explorations reveal the complexity of humanity, a constant dance between the needs of the body and the aspirations of the spirit.",
-    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976472/Svilen_Nachev_The_Dream_01_wianag.jpg",
+    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1775296881/Svilen_Nachev_Dream_of_the_flesh_0_javain.jpg",
     aspectRatio: "aspect-video",
     images: createImages("Dream Of The Flesh", [
       [1, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976472/Svilen_Nachev_The_Dream_01_wianag.jpg"],
@@ -165,7 +165,7 @@ export const seriesProjects: SeriesProject[] = [
     detailLabel: "(ongoing project)",
     description:
       "Venturing into the neglected recesses of one's mind is akin to traversing the desolate corridors of forgotten structures. In these dimly lit spaces, where echoes of past vibrancy now mingle with shadows, one finds a reflection of the human condition, memories and aspirations left to decay. This visual journey through mental ruins unveils the silent testament to our unexamined lives, urging a contemplative rediscovery. Herein lies the profound truth: amidst the desolation, we uncover the enduring essence of our being, waiting patiently to be reclaimed and understood.",
-    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976481/Svilen_Nachev_Interiors_01_uys2ul.jpg",
+    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976480/Svilen_Nachev_Interiors_17_p7kxi2.jpg",
     aspectRatio: "aspect-video",
     images: createImages("Interiors From Abandoned Places", [
       [1, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976481/Svilen_Nachev_Interiors_01_uys2ul.jpg"],
@@ -219,7 +219,7 @@ export const seriesProjects: SeriesProject[] = [
     detailLabel: "(ongoing project)",
     description:
       "This work, depicting the repurposing of the mundane tyre, is a portraiture of skepticism towards the disposability of objects - an attitude deeply embedded in communities whichhave encountered prolonged periods of scarcity. The dance between the robust nature of the humble tyre, the ingenuity of humans and the pursuit of longevity has produced a means of architectural landscaping, play, andpolitical statement. The series is a tribute to the somewhat endearing long-lasting presence of these often comedic and slightly absurd objects in our urban landscapes.\n\nText by Irina Gyurcheva",
-    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976485/Svilen_Nachev_It_aint_gone_till_its_gone_01_kkcip3.jpg",
+    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976485/Svilen_Nachev_It_aint_gone_till_its_gone_14_qgfddg.jpg",
     aspectRatio: "aspect-video",
     images: createImages("It ain't gone 'till it's gone", [
       [1, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976485/Svilen_Nachev_It_aint_gone_till_its_gone_01_kkcip3.jpg"],
@@ -253,7 +253,7 @@ export const seriesProjects: SeriesProject[] = [
     title: "Home",
     year: "2019-",
     detailLabel: "(ongoing project)",
-    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976487/Svilen_Nachev_HOME_01_w0bitd.jpg",
+    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976486/Svilen_Nachev_HOME_10_ikzgcr.jpg",
     aspectRatio: "aspect-video",
     images: createImages("Home", [
       [1, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976487/Svilen_Nachev_HOME_01_w0bitd.jpg"],
@@ -289,7 +289,7 @@ export const seriesProjects: SeriesProject[] = [
     detailLabel: "(ongoing project)",
     description:
       "Understanding what means to be human is impossible without looking at our relationship with animals. From ancient drawings in caves and the symbolism of zodiac signs to agriculture tozoos and pets, animals have been part of human imagination. This reflection on our ability to connect with sentient life and derive a symbolic meaning from it distinguishes us as species. The instant, non-verbal communication of the animal gaze has a somewhat spiritual quality, albeit often with unequal balance of power, acting as a mirror to prompt a deeper understanding of ourselves and what we value.\n\nText by Irina Gyurcheva",
-    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1773327975/Svilen_Nachev_Animal_01_xdclly.jpg",
+    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1773327967/Svilen_Nachev_Animal_04_lmut03.jpg",
     aspectRatio: "aspect-video",
     images: createImages("Animal Planet", [
       [1, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1773327975/Svilen_Nachev_Animal_01_xdclly.jpg"],
