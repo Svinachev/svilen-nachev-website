@@ -157,7 +157,7 @@ export default function BookOrder() {
                 Order Now
               </button>
               <p className="text-sm text-muted">
-                €85.00 per copy
+                €40.00 per copy + shipping
               </p>
             </div>
           </div>
@@ -181,7 +181,6 @@ export default function BookOrder() {
       </div>
 
       <div className="mb-12">
-        <h2 className="text-2xl font-bold mb-6 text-center">Media acclaim</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 items-center">
           {[
             {
@@ -224,7 +223,7 @@ export default function BookOrder() {
                 <img
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-10 w-auto object-contain opacity-70"
+                  className="h-20 w-auto object-contain opacity-70 md:h-24"
                   loading="lazy"
                   decoding="async"
                 />
