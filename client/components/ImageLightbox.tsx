@@ -126,8 +126,8 @@ export default function ImageLightbox({
           <img
             src={currentImage.src}
             alt={currentImage.alt}
-            className="w-full h-auto max-h-[75vh] md:max-h-[65vh] object-contain"
-          />
+            className="w-full h-auto max-h-[75vh] md:max-h-[65vh] object-contain"            loading="lazy"
+            decoding="async"          />
         </div>
 
         <button

@@ -28,6 +28,8 @@ export default function About() {
               src="/images/others/svilen_nachev_by_elena_nacheva.jpg"
               alt="Svilen Nachev"
               className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>

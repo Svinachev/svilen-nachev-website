@@ -24,6 +24,8 @@ export default function SeriesCard({
           src={image}
           alt={title}
           className="series-card-image w-full h-full object-cover transition-transform duration-300"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <h3 className="text-sm lg:text-base font-semibold tracking-wide mb-1">

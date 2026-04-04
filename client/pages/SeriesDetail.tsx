@@ -62,6 +62,8 @@ export default function SeriesDetail() {
                 src={image.src}
                 alt={image.alt}
                 className="w-full h-full object-contain cursor-pointer"
+                loading="lazy"
+                decoding="async"
               />
             </button>
           ))}
