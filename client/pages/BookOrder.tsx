@@ -148,10 +148,9 @@ export default function BookOrder() {
               </p>
             </div>
 
-            {/* Order Button */}
             <div className="flex flex-col gap-3">
               <button
-                onClick={() => window.open("https://buy.stripe.com/test_14AcN7c6Lci3axb7uS8k800", "_blank")}
+                onClick={() => window.open("https://buy.stripe.com/cNidRbedV6eBan2c1M5ZC00", "_blank")}
                 className="px-8 py-3 bg-foreground text-background font-semibold text-base hover:opacity-80 transition-opacity"
               >
                 Order Now

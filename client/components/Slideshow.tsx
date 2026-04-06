@@ -212,17 +212,6 @@ export default function Slideshow({
           </div>
         )}
       </div>
-
-      {/* Controls and Metadata Container */}
-      <div className="flex items-center justify-between gap-6 w-full max-w-2xl mb-8">
-        <div />
-
-        {/* Image Metadata on Right */}
-        <p key={`text-${currentIndex}`} className="text-sm lg:text-base text-muted text-right">
-          {currentImage.year}
-          {currentImage.location && ` — ${currentImage.location}`}
-        </p>
-      </div>
     </div>
   );
 }
