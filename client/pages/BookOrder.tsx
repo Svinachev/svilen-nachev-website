@@ -232,7 +232,6 @@ export default function BookOrder() {
       </div>
 
       <div className="pb-8">
-        <h2 className="text-2xl font-bold mb-4 text-center">Funding</h2>
         <p className="text-base leading-relaxed mb-4 text-muted text-center">
           „Проектът се реализира в България с финансовата подкрепа на НФ "Култура".“
         </p>
