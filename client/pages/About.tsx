@@ -25,7 +25,7 @@ export default function About() {
         <div className="lg:col-span-1">
           <div className="aspect-square overflow-hidden mb-6">
             <img
-              src="/images/others/svilen_nachev_by_elena_nacheva.jpg"
+              src="https://res.cloudinary.com/dbkvqqpan/image/upload/v1776796208/svilen_nachev_by_elena_nacheva_xpchlt.jpg"
               alt="Svilen Nachev"
               className="w-full h-full object-cover"
               loading="lazy"

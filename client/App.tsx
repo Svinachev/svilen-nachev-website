@@ -20,7 +20,7 @@ const queryClient = new QueryClient();
 const sharedPreviewImage =
   "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976454/Svilen_Nachev_index_01_xhlzrm.jpg";
 const bookPreviewImage =
-  "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976497/Illusion_Book_c0jdem.jpg";
+  "https://res.cloudinary.com/dbkvqqpan/image/upload/v1776795886/Illusion_Book_c0jdem.jpg";
 
 function ImageProtection() {
   useEffect(() => {
