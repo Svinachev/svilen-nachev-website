@@ -32,6 +32,7 @@ export default function About() {
               decoding="async"
             />
           </div>
+          <p className="text-sm text-muted text-center mb-6">picture by Arslan Ahmedov</p>
         </div>
 
         {/* Right content */}

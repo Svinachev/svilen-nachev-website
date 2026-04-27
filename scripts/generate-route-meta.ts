@@ -6,7 +6,9 @@ const SITE_URL = "https://svilen-nachev.com";
 const OUTPUT_DIR = path.resolve(process.cwd(), "dist/spa");
 
 const sharedPreviewImage =
-  "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976454/Svilen_Nachev_index_01_xhlzrm.jpg";
+  "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976464/Svilen_Nachev_index_41_qatxok.jpg";
+const seriesPreviewImage =
+  "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976465/Svilen_Nachev_Futility_01_skrnug.jpg";
 const bookPreviewImage =
   "https://res.cloudinary.com/dbkvqqpan/image/upload/v1776795886/Illusion_Book_c0jdem.jpg";
 
@@ -114,7 +116,7 @@ const staticRoutes: RouteMeta[] = [
     title: "Series | Svilen Nachev",
     description:
       "Browse photography series by Svilen Nachev, including ongoing and archival projects.",
-    image: sharedPreviewImage,
+    image: seriesPreviewImage,
   },
   {
     route: "/about",
