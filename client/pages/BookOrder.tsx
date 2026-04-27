@@ -117,6 +117,19 @@ export default function BookOrder() {
             </div>
           </div>
 
+          {/* Book Description */}
+          <div className="mb-8">
+            <blockquote className="text-base leading-relaxed mb-6 italic text-muted">
+              "Abandoned, broken-down spaces and objects appear, biblical and totalitarian symbols alternate, and in this book they seem to paint a picture of the same metaphysical order. They tell a story of searching for meaning in a post-Christian, post-totalitarian, post-apocalyptic land that still carries the secret of the universe. The author turns us, the viewers, into flâneurs and wanderers, leading us through the muffled spaces of this in-between land. All of this, however, is only one possible depiction of this story. Which raises the question: is there even a right or wrong reading of this book?"
+            </blockquote>
+            <p className="text-sm font-semibold mb-4">Penko Skumov</p>
+
+            <blockquote className="text-base leading-relaxed mb-6 italic text-muted">
+              "Svilen’s approach is strong precisely in its sequencing, through which he shifts attention from the story to the way it is being told. At the same time, this approach carries a risk. When the lack of context becomes a consistent method, it can begin to function more as a predictable style than as an open strategy. The ambiguity becomes expected and loses its element of surprise. In this sense, for me, the more interesting question the book raises is not what we see, but how we become used to looking. Do the images expand our perception of the everyday, or do they simply keep us in a constant state of searching for meaning?"
+            </blockquote>
+            <p className="text-sm font-semibold">Arslan Ahmedov</p>
+          </div>
+
           {/* Book Details */}
           <div>
             <h1 className="text-2xl font-bold mb-4">The Illusion of Meaning</h1>
