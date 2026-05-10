@@ -248,7 +248,27 @@ export default function BookOrder() {
           ))}
         </div>
       </div>
-
+      <div className="mb-12">
+        <div className="border border-border px-4 py-6 flex items-center justify-center">
+          <a
+            href="https://kultura.bg/web/%d1%82%d0%b0%d0%b9%d0%bd%d0%b0-%d0%b7%d0%b0-%d0%b4%d1%80%d1%83%d0%b3%d0%b0-%d1%82%d0%b0%d0%b9%d0%bd%d0%b0/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center gap-3 hover:opacity-70 transition-opacity"
+          >
+            <img
+              src="https://res.cloudinary.com/dbkvqqpan/image/upload/v1778408993/portalLogo_90x136_hinbfl.png"
+              alt="Kultura portal"
+              className="h-16 w-auto object-contain"
+              loading="lazy"
+              decoding="async"
+            />
+            <span className="text-sm text-center">
+              Тайна за друга тайна (за фотокнигата "Илюзията за смисъл") - Пенко Скумов
+            </span>
+          </a>
+        </div>
+      </div>
       <div className="pb-8">
         <p className="text-base leading-relaxed mb-4 text-muted text-center">
           „Проектът се реализира с финансовата подкрепа на НФ "Култура".“
