@@ -117,7 +117,7 @@ export default function BookOrder() {
             </div>
 
             {/* Kultura Portal Link */}
-            <div className="mt-6 border border-border px-4 py-8 flex items-center justify-center">
+            <div className="mt-6 border border-border px-8 py-8 flex items-center justify-center">
               <a
                 href="https://kultura.bg/web/%d1%82%d0%b0%d0%b9%d0%bd%d0%b0-%d0%b7%d0%b0-%d0%b4%d1%80%d1%83%d0%b3%d0%b0-%d1%82%d0%b0%d0%b9%d0%bd%d0%b0/"
                 target="_blank"
