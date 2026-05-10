@@ -71,6 +71,11 @@ export default function About() {
             <h3 className="text-base font-semibold mb-4">Publications and Exhibitions</h3>
             <ul className="space-y-2 text-sm">
               <li>
+                <LinkWithPreview href="https://www.collater.al/en/svilen-nachev-dream-of-the-flesh-photography/">
+                  Collater.al (2026)
+                </LinkWithPreview>
+              </li>
+              <li>
                 <LinkWithPreview href="https://www.collater.al/svilen-nachev-in-between-photography/">
                   Collater.al (2025)
                 </LinkWithPreview>
@@ -171,6 +176,21 @@ export default function About() {
           <div>
             <h3 className="text-base font-semibold mb-4">Interviews</h3>
             <ul className="space-y-2 text-sm">
+              <li>
+                <LinkWithPreview href="https://dergreif.org/article/the-everyday-street-photography-of-svilen-nachev">
+                  Der Greif (2026)
+                </LinkWithPreview>
+              </li>
+              <li>
+                <LinkWithPreview href="https://bnrnews.bg/hristobotev/post/466639/ilyuziyata-za-smisal-fotografiyata-kato-samnenie-i-pamet">
+                  BNR - Hristo Botev (2026)
+                </LinkWithPreview>
+              </li>
+              <li>
+                <LinkWithPreview href="https://obscuramag.com/trohi-ot-provala-svilen-nachev/">
+                  Obscura Mag (2026)
+                </LinkWithPreview>
+              </li>
               <li>
                 <LinkWithPreview href="https://www.9lives-magazine.com/114393/2025/05/26/rencontre-avec-le-photographe-svilen-nachev-photographier-lindicible/">
                   9 Lives Magazine (2025)
