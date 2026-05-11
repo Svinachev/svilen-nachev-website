@@ -116,27 +116,6 @@ export default function BookOrder() {
               ))}
             </div>
 
-            {/* Kultura Portal Link */}
-            <div className="mt-6 w-full border border-border px-8 py-8 flex items-center justify-center">
-              <a
-                href="https://kultura.bg/web/%d1%82%d0%b0%d0%b9%d0%bd%d0%b0-%d0%b7%d0%b0-%d0%b4%d1%80%d1%83%d0%b3%d0%b0-%d1%82%d0%b0%d0%b9%d0%bd%d0%b0/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex flex-col items-center gap-4 hover:opacity-70 transition-opacity"
-              >
-                <img
-                  src="https://res.cloudinary.com/dbkvqqpan/image/upload/v1778408993/portalLogo_90x136_hinbfl.png"
-                  alt="Kultura portal"
-                  className="h-20 w-auto object-contain"
-                  loading="lazy"
-                  decoding="async"
-                />
-                <div className="text-base text-center leading-relaxed">
-                  <p className="font-semibold mb-2">"Тайна за друга тайна" - Пенко Скумов</p>
-                  <p className="text-sm">За фотокнигата "Илюзията за смисъл"</p>
-                </div>
-              </a>
-            </div>
           </div>
 
           {/* Book Details */}
@@ -201,6 +180,27 @@ export default function BookOrder() {
             <p className="text-sm font-semibold mb-8 text-right">Valery Poshtarov</p>
           </div>
         </div>
+      </div>
+
+      <div className="mb-12 flex justify-center">
+        <a
+          href="https://kultura.bg/web/%d1%82%d0%b0%d0%b9%d0%bd%d0%b0-%d0%b7%d0%b0-%d0%b4%d1%80%d1%83%d0%b3%d0%b0-%d1%82%d0%b0%d0%b9%d0%bd%d0%b0/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border border-border px-8 py-8 flex flex-col items-center gap-4 hover:opacity-70 transition-opacity"
+        >
+          <img
+            src="https://res.cloudinary.com/dbkvqqpan/image/upload/v1778408993/portalLogo_90x136_hinbfl.png"
+            alt="Kultura portal"
+            className="h-20 w-auto object-contain"
+            loading="lazy"
+            decoding="async"
+          />
+          <div className="text-base text-center leading-relaxed">
+            <p className="font-semibold mb-2">"Тайна за друга тайна" - Пенко Скумов</p>
+            <p className="text-sm">За фотокнигата "Илюзията за смисъл"</p>
+          </div>
+        </a>
       </div>
 
       {/* Video Section */}
@@ -272,10 +272,7 @@ export default function BookOrder() {
       </div>
 
       <div className="pb-8">
-        <p className="text-base leading-relaxed mb-4 text-muted text-center">
-          „Проектът се реализира с финансовата подкрепа на НФ "Култура".“
-        </p>
-        <div className="flex justify-center">
+        <div className="flex justify-center mb-4">
           <img
             src="https://assets.jobs.bg/assets/logo/2023-04-03/b_d7c1e81aaa26f6e52c993a38a5ad2d25.png"
             alt="НФ Култура"
@@ -284,6 +281,9 @@ export default function BookOrder() {
             decoding="async"
           />
         </div>
+        <p className="text-base leading-relaxed text-muted text-center">
+          „Проектът се реализира с финансовата подкрепа на НФ "Култура"."
+        </p>
       </div>
     </div>
   );
