@@ -187,7 +187,7 @@ export default function BookOrder() {
           href="https://kultura.bg/web/%d1%82%d0%b0%d0%b9%d0%bd%d0%b0-%d0%b7%d0%b0-%d0%b4%d1%80%d1%83%d0%b3%d0%b0-%d1%82%d0%b0%d0%b9%d0%bd%d0%b0/"
           target="_blank"
           rel="noopener noreferrer"
-          className="border border-border px-8 py-8 flex flex-col items-center gap-4 hover:opacity-70 transition-opacity"
+          className="border border-border px-8 py-8 flex w-1/2 md:w-full flex-col items-center gap-4 hover:opacity-70 transition-opacity"
         >
           <img
             src="https://res.cloudinary.com/dbkvqqpan/image/upload/v1778408993/portalLogo_90x136_hinbfl.png"
