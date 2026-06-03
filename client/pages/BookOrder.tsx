@@ -175,6 +175,11 @@ export default function BookOrder() {
             <p className="text-sm font-semibold mb-8 text-right">Arslan Ahmedov</p>
 
             <blockquote className="text-base leading-relaxed mb-6 italic text-muted">
+              "The illusion of meaning has another reading for me. Who among us hasn't been lost at least once in our lives and hasn't searched for meaning for our existence on this planet? It is then that we ask ourselves the questions "how", "what", "why", the answers to which the viewer can endlessly search for at every unfolding along the path of Svilen's illusion of meaning, even in the finally chosen image..."
+            </blockquote>
+            <p className="text-sm font-semibold mb-8 text-right">Anton Daskalov</p>
+
+            <blockquote className="text-base leading-relaxed mb-6 italic text-muted">
               "Svilen Nachev shows us neither exotic worlds nor decisive moments. Calmly and without pathos, he constructs an “illusion of meaning” which does not sever our connection to reality, while functioning as a rejection of traditional photographic narrative."
             </blockquote>
             <p className="text-sm font-semibold mb-8 text-right">Valery Poshtarov</p>
