@@ -45,6 +45,9 @@ export default function About() {
             <p className="text-base leading-relaxed mb-4">
               My work explores the hidden dimensions of everyday life, seeking moments in which the ordinary becomes uncanny, poetic, or emotionally charged. Through the use of flash, color, and fragmented narratives, I investigate the relationship between personal experience and collective memory, paying particular attention to the visual and psychological landscapes of contemporary provincial Bulgaria. Navigating spaces marked by transition, decay, and transformation, I aim to reveal the traces of history embedded within the environment while questioning how identity, place, and memory are constructed through images.
             </p>
+            <p className="text-base leading-relaxed italic">
+              "For me photography is passion, enjoyment, an escape from the ordinary, way of documenting life and expressing myself. My main reason to shoot is to take better pictures, exploring the streets for something hidden and to catch a glimpse of what life was like for the next generations."
+            </p>
           </div>
 
           <div>
