@@ -38,15 +38,15 @@ export default function About() {
         {/* Right content */}
         <div className="lg:col-span-2 space-y-8">
           <div>
-            <h1 className="mb-4">About Me</h1>
+            <h1 className="text-3xl sm:text-4xl font-semibold mb-3">About Me</h1>
+            <p className="text-base leading-relaxed italic mb-6">
+              "For me photography is passion, enjoyment, an escape from the ordinary, way of documenting life and expressing myself. My main reason to shoot is to take better pictures, exploring the streets for something hidden and to catch a glimpse of what life was like for the next generations."
+            </p>
             <p className="text-base leading-relaxed mb-4">
               I am a photographer born in 1979 in Svishtov, Bulgaria, working at the intersection of documentary practice and conceptual exploration. Growing up in a small town on the Danube River during the post-socialist transition of the 1990s, I developed a visual sensibility shaped by the aesthetics of DIY music culture, MTV, and the photographic traditions of National Geographic and Magnum. These influences continue to inform my approach to image-making, where documentary observation intersects with intuition, memory, and abstraction.
             </p>
             <p className="text-base leading-relaxed mb-4">
               My work explores the hidden dimensions of everyday life, seeking moments in which the ordinary becomes uncanny, poetic, or emotionally charged. Through the use of flash, color, and fragmented narratives, I investigate the relationship between personal experience and collective memory, paying particular attention to the visual and psychological landscapes of contemporary provincial Bulgaria. Navigating spaces marked by transition, decay, and transformation, I aim to reveal the traces of history embedded within the environment while questioning how identity, place, and memory are constructed through images.
-            </p>
-            <p className="text-base leading-relaxed italic">
-              "For me photography is passion, enjoyment, an escape from the ordinary, way of documenting life and expressing myself. My main reason to shoot is to take better pictures, exploring the streets for something hidden and to catch a glimpse of what life was like for the next generations."
             </p>
           </div>
 
