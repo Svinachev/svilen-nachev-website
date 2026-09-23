@@ -74,6 +74,11 @@ export default function About() {
             <h3 className="text-base font-semibold mb-4">Publications and Exhibitions</h3>
             <ul className="space-y-2 text-sm">
               <li>
+                <LinkWithPreview href="https://www.ctypemag.com/featuredwork/Svilen-Nachev-Futility">
+                  CTypeMag (2026)
+                </LinkWithPreview>
+              </li>
+              <li>
                 <LinkWithPreview href="https://www.collater.al/en/svilen-nachev-dream-of-the-flesh-photography/">
                   Collater.al (2026)
                 </LinkWithPreview>
