@@ -164,7 +164,7 @@ export default function About() {
                 </LinkWithPreview>
               </li>
               <li>
-                <LinkWithPreview href="https://phodar.net/editions/2021?author=Svilen_Nachev">
+                <LinkWithPreview href="https://phodar.net/en/editions/2021/Svilen_Nachev">
                   Phodar (2021)
                 </LinkWithPreview>
               </li>
