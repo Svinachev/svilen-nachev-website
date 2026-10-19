@@ -312,7 +312,7 @@ export const seriesProjects: SeriesProject[] = [
   {
     id: "in-between",
     title: "In Between",
-    year: "2020-",
+    year: "2020",
     description:
       "This project is about documenting places and people inhabiting the in-between realities of social constructs. It looks at a society within the boundaries of Europe, but not necessarily representative of European way of life. Freedom of political choice is a right, but is repeatedly stifled by corruption and lack of prospects. Its people live between the remnants of the communist ideology and the diminishing hopes for a democratic present. They co-exist (and co-create a future) amidst avariety of ethnic cultures and perceive life through different languages, (both inherited from the past). Technology is often found in its most contrasting, caricature-like extremes.\n\nIt sees childhood, parenting, camaraderie, dilemmas, death ... the uniting power of the human condition.\n\nText by Irina Gyurcheva",
     image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976491/Svilen_Nachev_In_Between_01_ykbeiu.jpg",
@@ -341,7 +341,7 @@ export const seriesProjects: SeriesProject[] = [
   {
     id: "to-build-a-house",
     title: "To Build a House",
-    year: "2018-",
+    year: "2018",
     description:
       "Children see and experience life in a state of novelty andopenness. Their eyes are always fresh, their minds and hearts thrive on connecting with others. To help their talents and personalities flourish, children need loving relationships with significant adults in a supportive environment. When difficult circumstances such as poverty and broken families affect physical and emotional security, there is a knock-on effect on allparts of a child’s development. This project celebrates second chances for children to be just that – children. It was shot at the School for Arts and Crafts \"Dimitar Ekimov\" Rusalya, Bulgaria - funded entirely by donations - whose dedicated team educates artistically gifted children from poverty-stricken families. The school is aiming to provide equal opportunities, individual approach to learning, professional psychological support and, more importantly, anurturing environment.\n\nText by Irina Gyurcheva",
     image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1772976493/Svilen_Nachev_To_Build_A_House_01_qrad8x.jpg",
