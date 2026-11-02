@@ -115,17 +115,6 @@ export default function BookOrder() {
                 </button>
               ))}
             </div>
-            <div className="mt-4">
-              <div className="aspect-video bg-black rounded-lg overflow-hidden shadow-lg">
-                <iframe
-                  src="https://www.youtube.com/embed/BYRS25QbyC8"
-                  title="The Illusion of Meaning book video"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full"
-                ></iframe>
-              </div>
-            </div>
           </div>
 
           {/* Book Details */}
@@ -169,6 +158,18 @@ export default function BookOrder() {
               <p className="text-sm text-muted">
                 €40.00 per copy + shipping
               </p>
+            </div>
+          </div>
+
+          <div className="md:col-span-2 w-full max-w-5xl mx-auto">
+            <div className="aspect-video bg-black rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.youtube.com/embed/BYRS25QbyC8"
+                title="The Illusion of Meaning book video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
             </div>
           </div>
 
