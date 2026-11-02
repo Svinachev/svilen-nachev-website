@@ -115,7 +115,17 @@ export default function BookOrder() {
                 </button>
               ))}
             </div>
-
+            <div className="mt-4">
+              <div className="aspect-video bg-black rounded-lg overflow-hidden shadow-lg">
+                <iframe
+                  src="https://www.youtube.com/embed/BYRS25QbyC8"
+                  title="The Illusion of Meaning book video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </div>
+            </div>
           </div>
 
           {/* Book Details */}
@@ -206,22 +216,6 @@ export default function BookOrder() {
             <p className="text-sm">За фотокнигата "Илюзията за смисъл"</p>
           </div>
         </a>
-      </div>
-
-      {/* Video Section */}
-      <div className="mb-12 hidden">
-        <div className="aspect-video bg-black rounded-lg overflow-hidden shadow-lg">
-          <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/ckPpy3rqrPU"
-            title="Book Introduction"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className="w-full h-full"
-          ></iframe>
-        </div>
       </div>
 
       <div className="mb-12">
