@@ -15,13 +15,60 @@ export interface SeriesProject {
   aspectRatio?: string;
 }
 
-const createImages = (projectTitle: string, entries: Array<[number, string]>) =>
-  entries.map(([number, src]) => ({
+const createImages = (
+  projectTitle: string,
+  entries: Array<[number, string]>,
+  captions?: string[],
+) =>
+  entries.map(([number, src], index) => ({
     src,
     alt: `${projectTitle} ${String(number).padStart(2, "0")}`,
+    ...(captions ? { title: captions[index] } : {}),
   }));
 
 export const seriesProjects: SeriesProject[] = [
+  {
+    id: "cat-a-log",
+    title: "Cat-a-log",
+    year: "2026-",
+    description:
+      "My family and I care for more than ten cats. Living alongside them, we often recognize human traits, emotions, and behaviours, while each cat has its own distinct personality and individuality. In our attempt to anthropomorphize them, we may overlook the fact that they have no intention of being like us. We see ourselves in them, but are we simply projecting our own feelings and perceptions onto them? Ultimately, the question remains: who is observing whom, and who has tamed whom?",
+    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914705/Svilen_Nachev_Cat-a-log_05_e4sn3s.jpg",
+    aspectRatio: "aspect-video",
+    images: createImages("Cat-a-log", [
+      [1, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914679/Svilen_Nachev_Cat-a-log_01_ptvg9g.jpg"],
+      [2, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914711/Svilen_Nachev_Cat-a-log_02_o7c2zt.jpg"],
+      [3, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914714/Svilen_Nachev_Cat-a-log_03_eslc3f.jpg"],
+      [4, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914680/Svilen_Nachev_Cat-a-log_04_z6nh8e.jpg"],
+      [5, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914705/Svilen_Nachev_Cat-a-log_05_e4sn3s.jpg"],
+      [6, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914691/Svilen_Nachev_Cat-a-log_06_ixdbjx.jpg"],
+      [7, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914702/Svilen_Nachev_Cat-a-log_07_qwpxqs.jpg"],
+      [8, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914694/Svilen_Nachev_Cat-a-log_08_la61cr.jpg"],
+      [9, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914708/Svilen_Nachev_Cat-a-log_09_qzc2oa.jpg"],
+      [10, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914697/Svilen_Nachev_Cat-a-log_10_ojejxd.jpg"],
+      [11, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914725/Svilen_Nachev_Cat-a-log_11_vzvn53.jpg"],
+      [12, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914716/Svilen_Nachev_Cat-a-log_12_aiafzj.jpg"],
+      [13, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914722/Svilen_Nachev_Cat-a-log_13_uvwizp.jpg"],
+      [14, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914719/Svilen_Nachev_Cat-a-log_14_chnawg.jpg"],
+      [15, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914700/Svilen_Nachev_Cat-a-log_15_ttuk9y.jpg"],
+    ], [
+      "Snezhana",
+      "Petantse (Spot)",
+      "Shisho (Fatty)",
+      "Belya (Тrouble)",
+      "unknown name",
+      "Dariya",
+      "Felix",
+      "Jojo",
+      "unknown name",
+      "Dafne",
+      "unknown name",
+      "unknown name",
+      "Bebekot",
+      "Syanka (Shadow)",
+      "Daisy",
+    ]),
+  },
   {
     id: "futility",
     title: "Futility",

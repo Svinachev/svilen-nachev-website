@@ -113,7 +113,7 @@ export default function ImageLightbox({
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
-          className={`transition-all duration-200 w-screen md:w-[65vw] h-auto flex items-center justify-center touch-pan-y ${
+          className={`transition-all duration-200 w-screen md:w-[65vw] h-auto flex flex-col items-center justify-center touch-pan-y ${
           isTransitioning
             ? transitionDirection === 'right'
               ? 'translate-x-4 opacity-0'
@@ -126,8 +126,15 @@ export default function ImageLightbox({
           <img
             src={currentImage.src}
             alt={currentImage.alt}
-            className="w-full h-auto max-h-[75vh] md:max-h-[65vh] object-contain"            loading="lazy"
-            decoding="async"          />
+            className="w-full h-auto max-h-[75vh] md:max-h-[65vh] object-contain"
+            loading="lazy"
+            decoding="async"
+          />
+          {currentImage.title && (
+            <p className="mt-4 text-center text-sm text-black">
+              {currentImage.title}
+            </p>
+          )}
         </div>
 
         <button
