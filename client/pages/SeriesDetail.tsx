@@ -33,6 +33,34 @@ export default function SeriesDetail() {
     );
   }
 
+  const projectText = (
+    <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12 lg:py-16">
+      <div className="mb-6">
+        <h1 className="mb-3">{series.title}</h1>
+        {series.detailLabel && (
+          <p className="text-muted text-base">{series.detailLabel}</p>
+        )}
+      </div>
+
+      {series.description && (
+        <div>
+          <p className="text-base leading-relaxed whitespace-pre-line max-w-3xl">{series.description}</p>
+        </div>
+      )}
+
+      {id === "the-illusion-of-meaning" && (
+        <div className="mt-8">
+          <Link
+            to="/book-order"
+            className="inline-flex items-center justify-center px-6 py-3 border border-foreground text-sm font-semibold touch-safe-hover"
+          >
+            View the Book
+          </Link>
+        </div>
+      )}
+    </div>
+  );
+
   return (
     <div className="w-full">
       {/* Back Button - Above Gallery */}
@@ -46,7 +74,8 @@ export default function SeriesDetail() {
         </Link>
       </div>
 
-      {/* Image Gallery First */}
+      {id === "cat-a-log" && projectText}
+
       <div className="max-w-7xl mx-auto px-6 lg:px-8 mb-8 lg:mb-12">
         <ImageGrid columns="3" gap="6">
           {series.images.map((image, idx) => (
@@ -70,32 +99,7 @@ export default function SeriesDetail() {
         </ImageGrid>
       </div>
 
-      {/* Project Text - At the Bottom */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12 lg:py-16">
-        <div className="mb-6">
-          <h1 className="mb-3">{series.title}</h1>
-          {series.detailLabel && (
-            <p className="text-muted text-base">{series.detailLabel}</p>
-          )}
-        </div>
-
-        {series.description && (
-          <div>
-            <p className="text-base leading-relaxed whitespace-pre-line max-w-3xl">{series.description}</p>
-          </div>
-        )}
-
-        {id === "the-illusion-of-meaning" && (
-          <div className="mt-8">
-            <Link
-              to="/book-order"
-              className="inline-flex items-center justify-center px-6 py-3 border border-foreground text-sm font-semibold touch-safe-hover"
-            >
-              View the Book
-            </Link>
-          </div>
-        )}
-      </div>
+      {id !== "cat-a-log" && projectText}
 
       {lightboxOpen && (
         <ImageLightbox
