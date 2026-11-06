@@ -33,7 +33,7 @@ export const seriesProjects: SeriesProject[] = [
     year: "2026-",
     description:
       "My family and I care for more than ten cats. Living alongside them, we often recognize human traits, emotions, and behaviours, while each cat has its own distinct personality and individuality. In our attempt to anthropomorphize them, we may overlook the fact that they have no intention of being like us. We see ourselves in them, but are we simply projecting our own feelings and perceptions onto them? Ultimately, the question remains: who is observing whom, and who has tamed whom?",
-    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914705/Svilen_Nachev_Cat-a-log_05_e4sn3s.jpg",
+    image: "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914714/Svilen_Nachev_Cat-a-log_03_eslc3f.jpg",
     aspectRatio: "aspect-video",
     images: createImages("Cat-a-log", [
       [1, "https://res.cloudinary.com/dbkvqqpan/image/upload/v1793914679/Svilen_Nachev_Cat-a-log_01_ptvg9g.jpg"],
